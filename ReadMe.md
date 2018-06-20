@@ -6,7 +6,7 @@ The original problem was to design a system to model the relationship structure 
 
 I have chosen to design the system in as a .NET Core solution using MVC and Entity Framework as a data model. The code will be structured as a 3-tier design using dependency injection to facilitate unit testing and allow extensibility. For all purposes this design is a little contrived for this simple scenario but is emulates a possible design of a real-world system.
 
-# Designg
+# Design
 
 ## System requirements
 
@@ -34,7 +34,7 @@ The following assumptions were determined by analysing the dataset given, or ind
 * A relationship is between 2 people.
 * Two people in a relationship are married.
 * A Person's name is sufficiently unique in this example
-* The model may contain relationships for people who are not royal by birth but are married to a royal person.
+* No ancestry is recorded for people who are not related to the royal family
 
 # Usage
 
