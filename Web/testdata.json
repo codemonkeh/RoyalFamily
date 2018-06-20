@@ -1,0 +1,47 @@
+﻿[
+  // root level
+  {
+    "name": "Mrs Sanchez",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Rick Sanchez",
+    "parents": [],
+    "male": true,
+    "royal": true,
+    "spouse": "Mrs Sanchez"
+  },
+  // level 1
+  {
+    "name": "Jerry Smith",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Beth Smith",
+    "parents": [ "Rick Sanchez", "Mrs Sanchez" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Jerry Smith"
+  },  
+  // level 2  
+  {
+    "name": "Summer Smith",
+    "parents": [ "Beth Smith", "Jerry Smith" ],
+    "male": false,
+    "royal": true,
+    "spouse": null
+  },  
+  {
+    "name": "Morty Smith",
+    "parents": [ "Beth Smith", "Jerry Smith" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  }
+]
