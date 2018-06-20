@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>RoyalFamily.Common</RootNamespace>
+    <Authors>Christian Froehlich</Authors>
+  </PropertyGroup>
+
+</Project>

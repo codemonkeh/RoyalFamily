@@ -1,0 +1,36 @@
+﻿@using RoyalFamily.Web.Models
+@model RelationshipViewModel
+@{
+    ViewData["Title"] = "Royal Family Problem";
+}
+<div class="row">
+    <div class="col" align="center">
+        <form method="post">
+            <div class="row">
+                <h1>Royal Family</h1>
+                <h2>How are we related?</h2>
+            </div>
+            <div class="row" asp-validation-summary="All">
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label asp-for="Name1"></label>
+                    <input asp-for="Name1" />
+                </div>
+                <div class="col">
+                    <label asp-for="Name2"></label>
+                    <input asp-for="Name2" />
+                </div>                
+            </div>            
+            @if (Model != null && !string.IsNullOrEmpty(Model.Relationship))
+            {
+                <div class="row">
+                    <h3>@Html.Encode(Model.Name2) is their @Html.Encode(Model.Relationship)</h3>
+                </div>
+            }
+            <div class="row">
+                <button type="submit">Find relationship</button>
+            </div>
+        </form>
+    </div>        
+</div>

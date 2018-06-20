@@ -1,0 +1,222 @@
+﻿[
+  // root level
+  {
+    "name": "Queen Anga",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "King Shan",
+    "parents": [],
+    "male": true,
+    "royal": true,
+    "spouse": "Queen Anga"
+  },
+  // Ish
+  {
+    "name": "Ish",
+    "parents": [ "King Shan", "Queen Anga" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  },
+  // Chit
+  {
+    "name": "Ambi",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Chit",
+    "parents": [ "King Shan", "Queen Anga" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Ambi"
+  },
+  // Chit > Drita
+  {
+    "name": "Jaya",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Drita",
+    "parents": [ "Chit", "Ambi" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Jaya"
+  },
+  // Chit > Drita > Jata
+  {
+    "name": "Jata",
+    "parents": [ "Drita", "Jaya" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  },
+  // Chit > Drita > Driya (f)
+  {
+    "name": "Mnu",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Driya",
+    "parents": [ "Drita", "Jaya" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Mnu"
+  },
+  // Chit > Vrita
+  {
+    "name": "Vrita",
+    "parents": [ "Chit", "Ambi" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  },
+  // Vich
+  {
+    "name": "Lika",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Vich",
+    "parents": [ "King Shan", "Queen Anga" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Lika"
+  },
+  // Vich > Vila
+  {
+    "name": "Jnki",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Vila",
+    "parents": [ "Vich", "Lika" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Jnki"
+  },
+  // Vich > Vila > Lavnya (f)
+  {
+    "name": "Gru",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Lavnya",
+    "parents": [ "Vila", "Jnki" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Gru"
+  },
+  // Vich > Chika (f)
+  {
+    "name": "Kpila",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Chika",
+    "parents": [ "Vich", "Lika" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Kpila"
+  },
+  // Satya (f)
+  {
+    "name": "Vyan",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Satya",
+    "parents": [ "King Shan", "Queen Anga" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Vyan"
+  },
+  // Satya (f) > Satvy (f)
+  {
+    "name": "Asva",
+    "parents": [],
+    "male": true,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Satvy",
+    "parents": [ "Satya", "Vyan" ],
+    "male": false,
+    "royal": true,
+    "spouse": "Asva"
+  },
+  // Satya (f) > Savya
+  {
+    "name": "Krpi",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Savya",
+    "parents": [ "Satya", "Vyan" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Krpi"
+  },
+  // Satya (f) > Savya > Kriya
+  {
+    "name": "Kriya",
+    "parents": [ "Savya", "Krpi" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  },
+  // Satya (f) > Saayan
+  {
+    "name": "Mina",
+    "parents": [],
+    "male": false,
+    "royal": false,
+    "spouse": null
+  },
+  {
+    "name": "Saayan",
+    "parents": [ "Satya", "Vyan" ],
+    "male": true,
+    "royal": true,
+    "spouse": "Mina"
+  },
+  // Satya (f) > Saayan > Misa
+  {
+    "name": "Misa",
+    "parents": [ "Saayan", "Mina" ],
+    "male": true,
+    "royal": true,
+    "spouse": null
+  }
+]
